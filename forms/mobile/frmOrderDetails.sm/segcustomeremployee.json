@@ -1,0 +1,523 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "lblIssueDesctription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Issue Desctription"
+            },
+            "lblappointmentdttime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Appointment Dt Time"
+            },
+            "lblorderid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Order Id"
+            },
+            "lblremarks": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Remarks"
+            },
+            "lblserviceempidfkey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Emp Id Fkey"
+            },
+            "lblstatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Status"
+            },
+            "lbluseremailfkey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "User Email Fkey"
+            }
+        },
+        {
+            "lblIssueDesctription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Issue Desctription"
+            },
+            "lblappointmentdttime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Appointment Dt Time"
+            },
+            "lblorderid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Order Id"
+            },
+            "lblremarks": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Remarks"
+            },
+            "lblserviceempidfkey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Emp Id Fkey"
+            },
+            "lblstatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Status"
+            },
+            "lbluseremailfkey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "User Email Fkey"
+            }
+        },
+        {
+            "lblIssueDesctription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Issue Desctription"
+            },
+            "lblappointmentdttime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Appointment Dt Time"
+            },
+            "lblorderid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Order Id"
+            },
+            "lblremarks": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Remarks"
+            },
+            "lblserviceempidfkey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Emp Id Fkey"
+            },
+            "lblstatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Status"
+            },
+            "lbluseremailfkey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "User Email Fkey"
+            }
+        },
+        {
+            "lblIssueDesctription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Issue Desctription"
+            },
+            "lblappointmentdttime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Appointment Dt Time"
+            },
+            "lblorderid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Order Id"
+            },
+            "lblremarks": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Remarks"
+            },
+            "lblserviceempidfkey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Emp Id Fkey"
+            },
+            "lblstatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Status"
+            },
+            "lbluseremailfkey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "User Email Fkey"
+            }
+        },
+        {
+            "lblIssueDesctription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Issue Desctription"
+            },
+            "lblappointmentdttime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Appointment Dt Time"
+            },
+            "lblorderid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Order Id"
+            },
+            "lblremarks": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Remarks"
+            },
+            "lblserviceempidfkey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Emp Id Fkey"
+            },
+            "lblstatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Status"
+            },
+            "lbluseremailfkey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "User Email Fkey"
+            }
+        },
+        {
+            "lblIssueDesctription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Issue Desctription"
+            },
+            "lblappointmentdttime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Appointment Dt Time"
+            },
+            "lblorderid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Order Id"
+            },
+            "lblremarks": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Remarks"
+            },
+            "lblserviceempidfkey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Emp Id Fkey"
+            },
+            "lblstatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Status"
+            },
+            "lbluseremailfkey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "User Email Fkey"
+            }
+        },
+        {
+            "lblIssueDesctription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Issue Desctription"
+            },
+            "lblappointmentdttime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Appointment Dt Time"
+            },
+            "lblorderid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Order Id"
+            },
+            "lblremarks": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Remarks"
+            },
+            "lblserviceempidfkey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Emp Id Fkey"
+            },
+            "lblstatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Status"
+            },
+            "lbluseremailfkey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "User Email Fkey"
+            }
+        },
+        {
+            "lblIssueDesctription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Issue Desctription"
+            },
+            "lblappointmentdttime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Appointment Dt Time"
+            },
+            "lblorderid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Order Id"
+            },
+            "lblremarks": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Remarks"
+            },
+            "lblserviceempidfkey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Emp Id Fkey"
+            },
+            "lblstatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Status"
+            },
+            "lbluseremailfkey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "User Email Fkey"
+            }
+        },
+        {
+            "lblIssueDesctription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Issue Desctription"
+            },
+            "lblappointmentdttime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Appointment Dt Time"
+            },
+            "lblorderid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Order Id"
+            },
+            "lblremarks": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Remarks"
+            },
+            "lblserviceempidfkey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Emp Id Fkey"
+            },
+            "lblstatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Status"
+            },
+            "lbluseremailfkey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "User Email Fkey"
+            }
+        },
+        {
+            "lblIssueDesctription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Issue Desctription"
+            },
+            "lblappointmentdttime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Appointment Dt Time"
+            },
+            "lblorderid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Order Id"
+            },
+            "lblremarks": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Remarks"
+            },
+            "lblserviceempidfkey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Emp Id Fkey"
+            },
+            "lblstatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Status"
+            },
+            "lbluseremailfkey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "User Email Fkey"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "760dp"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "actionsInfo": {
+        "dataPropertyName": "records",
+        "widgetPropertyName": "rowData"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "09",
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": "b23a3e09b756495890fd80ef6227305b",
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segcustomeremployee",
+    "ide_onRowClick": "AS_Segment_c17b49cec45146e0970223c820a0baeb",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e1cf5695b049471ba66dd0c26e994101",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "frmOrderDetails",
+    "pf": "frmOrderDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "b23a3e09b756495890fd80ef6227305b",
+    "rowcounter": 9,
+    "rowfocusskin": "s052a4e1579a4a30b764cd85902faff2",
+    "rowskin": "s386127b4f94404bb8965099cbea96f6",
+    "rowtemplate": "FBox0f847ae3bfb2645",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "s4c0c6a2a403468798fe50f5f65f4d15",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {
+        "dynamicPropertiesConfig": {
+            "dataCollectionId": "records",
+            "methodName": "get",
+            "operationName": "customer_employee",
+            "rowTemplateKUID": "b23a3e09b756495890fd80ef6227305b",
+            "segmentKUID": "e1cf5695b049471ba66dd0c26e994101",
+            "serviceName": "ObjSvcDatatableInHomeRepairs",
+            "serviceType": "objectsvcs",
+            "viewType": "List form ui",
+            "widgetsConfig": {
+                "CreatedBy": {
+                    "dataType": "string",
+                    "properties": {
+                        "generate": false,
+                        "index": 7
+                    }
+                },
+                "CreatedDateTime": {
+                    "dataType": "date",
+                    "properties": {
+                        "generate": false,
+                        "index": 9
+                    }
+                },
+                "Issue_Desctription": {
+                    "dataType": "string",
+                    "kuid": "ebbdb2796e8d49eba3edf0855adb6f28",
+                    "properties": {
+                        "generate": true,
+                        "index": 3
+                    },
+                    "wType": "Label"
+                },
+                "LastUpdatedBy": {
+                    "dataType": "string",
+                    "properties": {
+                        "generate": false,
+                        "index": 8
+                    }
+                },
+                "LastUpdatedDateTime": {
+                    "dataType": "date",
+                    "properties": {
+                        "generate": false,
+                        "index": 10
+                    }
+                },
+                "SoftDeleteFlag": {
+                    "dataType": "boolean",
+                    "properties": {
+                        "generate": false,
+                        "index": 11
+                    }
+                },
+                "appointment_dt_time": {
+                    "dataType": "date",
+                    "kuid": "e979561942a5405ba4bf776d56961611",
+                    "properties": {
+                        "generate": true,
+                        "index": 4
+                    },
+                    "wType": "Label"
+                },
+                "order_id": {
+                    "dataType": "number",
+                    "kuid": "g343d216f2b24c79ad37a57f51388e53",
+                    "properties": {
+                        "generate": true,
+                        "index": 0
+                    },
+                    "wType": "Label"
+                },
+                "remarks": {
+                    "dataType": "string",
+                    "kuid": "c3f943a70fd14430a6ebdf9c22ddd933",
+                    "properties": {
+                        "generate": true,
+                        "index": 6
+                    },
+                    "wType": "Label"
+                },
+                "service_emp_id_fkey": {
+                    "dataType": "number",
+                    "kuid": "a637fc53e7a149dab7d078957aa0d106",
+                    "properties": {
+                        "generate": true,
+                        "index": 2
+                    },
+                    "wType": "Label"
+                },
+                "status": {
+                    "dataType": "enum",
+                    "kuid": "cd54b60207dd4685bdb70ee7b351d8d6",
+                    "properties": {
+                        "generate": true,
+                        "index": 5
+                    },
+                    "wType": "Label"
+                },
+                "user_email_fkey": {
+                    "dataType": "string",
+                    "kuid": "c0fe589183c54593b4959f600f800cb8",
+                    "properties": {
+                        "generate": true,
+                        "index": 1
+                    },
+                    "wType": "Label"
+                }
+            }
+        }
+    },
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "lblIssueDesctription": "lblIssueDesctription",
+        "lblappointmentdttime": "lblappointmentdttime",
+        "lblorderid": "lblorderid",
+        "lblremarks": "lblremarks",
+        "lblserviceempidfkey": "lblserviceempidfkey",
+        "lblstatus": "lblstatus",
+        "lbluseremailfkey": "lbluseremailfkey"
+    },
+    "zindex": 1
+}

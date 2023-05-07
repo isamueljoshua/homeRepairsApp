@@ -1,0 +1,253 @@
+{
+    "AS_Form_j88120e4aee7418e845fae37245db704": {
+        "id": "AS_Form_j88120e4aee7418e845fae37245db704",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "fromservNw",
+            "type": "forms",
+            "platform": null,
+            "KUID": "c8ec6a4ee9f5448aac0838043447b1c6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "LOADING_INDICATOR_a06be55862814dc7b3dc0df8b221bc69",
+            "selectedOption": "show",
+            "parentId": null,
+            "type": "LOADING_INDICATOR",
+            "callbackType": null,
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "INVOKE_SERVICE_e35b45dd9f934c559fb4213d676653bb",
+            "type": "INVOKE_OBJECT_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": null,
+            "isoffline": null,
+            "isobject": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "servicename": "ObjSvcDatatableInHomeRepairs",
+                "type": "objectsvcs",
+                "objectname": "servicesobj",
+                "serviceid": "d64c84b6-80db-4e2b-8600-cea668176a69",
+                "methodname": "get"
+            },
+            "parentId": null,
+            "callbackType": null,
+            "enableMappingEditor": true
+        }, {
+            "id": "ADD_MAPPING_g382766b967e44658f844cf89aabf9ac",
+            "type": "ADD_MAPPING",
+            "mappings": {
+                "ME_Mapping_d00a4150c6e243ea83ac7fd42df50df9": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_d00a4150c6e243ea83ac7fd42df50df9",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "service_id",
+                        "dataType": "number",
+                        "collectionId": "records",
+                        "propertyPath": "[\"records\"][0][\"service_id\"]",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "ObjSvcDatatableInHomeRepairs",
+                            "type": "objectsvcs",
+                            "objectname": "servicesobj",
+                            "serviceid": "d64c84b6-80db-4e2b-8600-cea668176a69",
+                            "methodname": "get"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblserviceid",
+                        "widgetPath": "this.view.lblserviceid",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "templateType": "rowTemplate",
+                        "itemId": "fromservNw",
+                        "parentMappingId": "ME_Mapping_eba1e6643ceb45cc9c6a59502336c1d5",
+                        "segmentId": "segservicesobj",
+                        "segmentKUID": "c0dcb6fdb42f48b3b8d55bdb14d26ea9",
+                        "widgetKUID": "h731bffc95f1404f8c0b7fe86b10bb7f",
+                        "itemKUID": "c8ec6a4ee9f5448aac0838043447b1c6",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_if8179db633e4ef5b3a7ab5464c0acdf": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_if8179db633e4ef5b3a7ab5464c0acdf",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "service_name",
+                        "dataType": "string",
+                        "collectionId": "records",
+                        "propertyPath": "[\"records\"][0][\"service_name\"]",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "ObjSvcDatatableInHomeRepairs",
+                            "type": "objectsvcs",
+                            "objectname": "servicesobj",
+                            "serviceid": "d64c84b6-80db-4e2b-8600-cea668176a69",
+                            "methodname": "get"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblservicename",
+                        "widgetPath": "this.view.lblservicename",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "templateType": "rowTemplate",
+                        "itemId": "fromservNw",
+                        "parentMappingId": "ME_Mapping_eba1e6643ceb45cc9c6a59502336c1d5",
+                        "segmentId": "segservicesobj",
+                        "segmentKUID": "c0dcb6fdb42f48b3b8d55bdb14d26ea9",
+                        "widgetKUID": "f7037699c13c4e6b85f500b763f98f07",
+                        "itemKUID": "c8ec6a4ee9f5448aac0838043447b1c6",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_g785881d6350480eb8cb53089ac50965": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_g785881d6350480eb8cb53089ac50965",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "service_description",
+                        "dataType": "string",
+                        "collectionId": "records",
+                        "propertyPath": "[\"records\"][0][\"service_description\"]",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "ObjSvcDatatableInHomeRepairs",
+                            "type": "objectsvcs",
+                            "objectname": "servicesobj",
+                            "serviceid": "d64c84b6-80db-4e2b-8600-cea668176a69",
+                            "methodname": "get"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblservicedescription",
+                        "widgetPath": "this.view.lblservicedescription",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "templateType": "rowTemplate",
+                        "itemId": "fromservNw",
+                        "parentMappingId": "ME_Mapping_eba1e6643ceb45cc9c6a59502336c1d5",
+                        "segmentId": "segservicesobj",
+                        "segmentKUID": "c0dcb6fdb42f48b3b8d55bdb14d26ea9",
+                        "widgetKUID": "f9a51297698e458fa5779669bdde1b18",
+                        "itemKUID": "c8ec6a4ee9f5448aac0838043447b1c6",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_eba1e6643ceb45cc9c6a59502336c1d5": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_eba1e6643ceb45cc9c6a59502336c1d5",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "records",
+                        "dataType": "collection",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "ObjSvcDatatableInHomeRepairs",
+                            "type": "objectsvcs",
+                            "objectname": "servicesobj",
+                            "serviceid": "d64c84b6-80db-4e2b-8600-cea668176a69",
+                            "methodname": "get"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "rowData",
+                        "widgetId": "segservicesobj",
+                        "widgetPath": "this.view.segservicesobj",
+                        "widgetType": "Segment",
+                        "dataType": "collection",
+                        "itemId": "fromservNw",
+                        "collectionId": "masterdata",
+                        "widgetKUID": "c0dcb6fdb42f48b3b8d55bdb14d26ea9",
+                        "itemKUID": "c8ec6a4ee9f5448aac0838043447b1c6",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_b050990ae24e421d80d9ff5d21011f4b": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_b050990ae24e421d80d9ff5d21011f4b",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "logo_path",
+                        "dataType": "string",
+                        "collectionId": "records",
+                        "propertyPath": "[\"records\"][0][\"logo_path\"]",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "ObjSvcDatatableInHomeRepairs",
+                            "type": "objectsvcs",
+                            "objectname": "servicesobj",
+                            "serviceid": "d64c84b6-80db-4e2b-8600-cea668176a69",
+                            "methodname": "get"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "src",
+                        "widgetId": "Image0ic1c0974bca949",
+                        "widgetPath": "this.view.Image0ic1c0974bca949",
+                        "widgetType": "Image",
+                        "dataType": "string",
+                        "templateType": "rowTemplate",
+                        "itemId": "fromservNw",
+                        "parentMappingId": "ME_Mapping_eba1e6643ceb45cc9c6a59502336c1d5",
+                        "segmentId": "segservicesobj",
+                        "segmentKUID": "c0dcb6fdb42f48b3b8d55bdb14d26ea9",
+                        "widgetKUID": "fa6d1123892f44b1ac95291b9a8a8511",
+                        "itemKUID": "c8ec6a4ee9f5448aac0838043447b1c6",
+                        "forkedPlatform": "all"
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_d00a4150c6e243ea83ac7fd42df50df9", "ME_Mapping_if8179db633e4ef5b3a7ab5464c0acdf", "ME_Mapping_g785881d6350480eb8cb53089ac50965", "ME_Mapping_eba1e6643ceb45cc9c6a59502336c1d5", "ME_Mapping_b050990ae24e421d80d9ff5d21011f4b"],
+            "parentId": "INVOKE_SERVICE_e35b45dd9f934c559fb4213d676653bb",
+            "callbackType": "Callback",
+            "enableMappingEditor": true
+        }, {
+            "id": "LOADING_INDICATOR_gbf253fcbf814ef8852598ff56a71523",
+            "selectedOption": "dismiss",
+            "parentId": "INVOKE_SERVICE_e35b45dd9f934c559fb4213d676653bb",
+            "type": "LOADING_INDICATOR",
+            "callbackType": "Callback",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }]
+    }
+}

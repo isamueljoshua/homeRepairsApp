@@ -1,0 +1,55 @@
+{
+    "AS_Image_bd5a17bf2c7e49cf9042a931b5d198b2": {
+        "id": "AS_Image_bd5a17bf2c7e49cf9042a931b5d198b2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "fromservNw",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c8ec6a4ee9f5448aac0838043447b1c6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__e23f059c900e4578af507fc5efe26a70",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmOrderDetails",
+            "formKUID": "cf7420ccad494826b700c69821c64402",
+            "projectName": "HomeRepairs",
+            "mappings": {
+                "ME_Mapping_ada8a47d97a5423a95afc0545ecb7a3a": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_ada8a47d97a5423a95afc0545ecb7a3a",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Variables",
+                        "propertyName": "userEmail",
+                        "propertyKey": "variable_userEmail",
+                        "dataType": "string",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "forkedPlatform": "all"
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_ada8a47d97a5423a95afc0545ecb7a3a"],
+            "enableMappingEditor": true,
+            "package": "",
+            "enableNavigationObj": true,
+            "navigationObj": "{\n    \"variable_userEmail\": userEmail,\n    \"_meta_\": {\n        \"eventName\": \"onTouchStart\",\n        \"widgetId\": \"imgHeaderLogo\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

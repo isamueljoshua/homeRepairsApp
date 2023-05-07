@@ -1,0 +1,67 @@
+{
+    "AS_Segment_a6712816c833470ca18c2b4be22e605f": {
+        "id": "AS_Segment_a6712816c833470ca18c2b4be22e605f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmempservs",
+            "type": "forms",
+            "platform": "",
+            "KUID": "aa4f857c6b7449499dd21ca06dc07d15"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ed728f75e8b1473a8954aefc1bce244e",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmfinalDetails",
+            "formKUID": "h57efdff79d54cfea0ed1f3234b16b16",
+            "projectName": "HomeRepairs",
+            "mappings": {
+                "ME_Mapping_f6b023d2c96e4ec3b313163b2a4d21de": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_f6b023d2c96e4ec3b313163b2a4d21de",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "lblempid",
+                        "propertyKey": "segserviceemployee_lblempid",
+                        "widgetId": "segserviceemployee",
+                        "widgetPath": "this.view.segserviceemployee",
+                        "widgetType": "Segment",
+                        "dataType": "string",
+                        "itemId": "frmempservs",
+                        "collectionId": "selectedRowItems",
+                        "widgetKUID": "g2d2e4c725584ba7a40e8a38a1b4a649",
+                        "itemKUID": "aa4f857c6b7449499dd21ca06dc07d15",
+                        "forkedPlatform": "all",
+                        "segmentChildInfo": {
+                            "kuid": "gd7887bbeeab46f5a8a8125b4d6efbb7",
+                            "widgetType": "Label",
+                            "widgetPath": "this.view.lblempid"
+                        }
+                    },
+                    "target": {
+                        "forkedPlatform": "all"
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_f6b023d2c96e4ec3b313163b2a4d21de"],
+            "enableMappingEditor": true,
+            "package": "",
+            "enableNavigationObj": true,
+            "navigationObj": "{\n    \"segserviceemployee_lblempid\": voltmx.visualizer.getPropertyValue(self.view.segserviceemployee.selectedRowItems[0][\"lblempid\"], \"text\"),\n    \"_meta_\": {\n        \"eventName\": \"onRowClick\",\n        \"widgetId\": \"segserviceemployee\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

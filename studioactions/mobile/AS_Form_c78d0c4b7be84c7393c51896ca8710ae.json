@@ -1,0 +1,151 @@
+{
+    "AS_Form_c78d0c4b7be84c7393c51896ca8710ae": {
+        "id": "AS_Form_c78d0c4b7be84c7393c51896ca8710ae",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmfinalDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h57efdff79d54cfea0ed1f3234b16b16"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_LOCAL_VARIABLE_d87bb6270c744e7db26935d28bc88c87",
+            "type": "ADD_LOCAL_VARIABLE",
+            "name": "ordr_id",
+            "isGlobal": false,
+            "valuetype": "expression",
+            "datatype": "number",
+            "value": "0",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "MODIFY_VARIABLE_ACTION_h192f128d9d643dab2850048e02a3c84",
+            "type": "MODIFY_VARIABLE_ACTION",
+            "parentId": null,
+            "callbackType": null,
+            "variable": "ordr_id",
+            "valueType": "set",
+            "isGlobal": false,
+            "dataType": "expression",
+            "modifySet": "Math.floor(Math.random()*100);",
+            "modifySetType": "string"
+        }, {
+            "id": "ADD_MAPPING_b1697aca2e6c4ebbb8f7f7125405a75f",
+            "type": "ADD_MAPPING",
+            "mappings": {
+                "ME_Mapping_bfa4df314c544b4d8247e47fc6d63017": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_bfa4df314c544b4d8247e47fc6d63017",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Variables",
+                        "propertyName": "ordr_id",
+                        "dataType": "number",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "tbxorderid",
+                        "widgetPath": "this.view.tbxorderid",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "frmfinalDetails",
+                        "widgetKUID": "ad7be80c4bcd4e9292459168a2e9be55",
+                        "itemKUID": "h57efdff79d54cfea0ed1f3234b16b16",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_cb7fb631f89c40e4b805726d21139d4e": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_cb7fb631f89c40e4b805726d21139d4e",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Variables",
+                        "propertyName": "userEmail",
+                        "dataType": "string",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "tbxuseremailfkey",
+                        "widgetPath": "this.view.tbxuseremailfkey",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "frmfinalDetails",
+                        "widgetKUID": "daee1719733646d383f0e4abf717d21a",
+                        "itemKUID": "h57efdff79d54cfea0ed1f3234b16b16",
+                        "forkedPlatform": "all"
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_bfa4df314c544b4d8247e47fc6d63017", "ME_Mapping_cb7fb631f89c40e4b805726d21139d4e"],
+            "parentId": null,
+            "callbackType": null,
+            "enableMappingEditor": true
+        }, {
+            "id": "_d3bc3d090f214086b646c4022c30302b",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "navigationsource",
+                "leftValue": "(this.getPreviousForm() === \"frmempservs\") && this.navigationContext && this.navigationContext._meta_ && (this.navigationContext._meta_.widgetId ===  \"segserviceemployee\") && (this.navigationContext._meta_.eventName ===  \"onRowClick\")",
+                "operator": "===",
+                "rightValue": "",
+                "leftItemKUID": "aa4f857c6b7449499dd21ca06dc07d15",
+                "leftWidgetKUID": "g2d2e4c725584ba7a40e8a38a1b4a649",
+                "sequenceId": "AS_Segment_a6712816c833470ca18c2b4be22e605f",
+                "eventName": "onRowClick",
+                "widgetId": "segserviceemployee"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "ADD_MAPPING_c968d090cf814915ab064692a43bdbf8",
+            "type": "ADD_MAPPING",
+            "mappings": {
+                "ME_Mapping_e4b41b730c4f46e4acaac3ff24c4282e": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_e4b41b730c4f46e4acaac3ff24c4282e",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "navigationobject",
+                        "propertyName": "segserviceemployee_lblempid",
+                        "dataType": "string",
+                        "collectionId": "selectedRowItems",
+                        "isSkinProperty": false,
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "tbxserviceempidfkey",
+                        "widgetPath": "this.view.tbxserviceempidfkey",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "frmfinalDetails",
+                        "widgetKUID": "f8bcc45408d648df8c2190e82a1ff485",
+                        "itemKUID": "h57efdff79d54cfea0ed1f3234b16b16",
+                        "forkedPlatform": "all"
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_e4b41b730c4f46e4acaac3ff24c4282e"],
+            "parentId": "_d3bc3d090f214086b646c4022c30302b",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

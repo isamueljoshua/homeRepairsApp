@@ -1,0 +1,93 @@
+{
+    "AS_Button_c44761df67d64bd694a3524f8681f9a2": {
+        "id": "AS_Button_c44761df67d64bd694a3524f8681f9a2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmEmpDetails",
+            "type": "forms",
+            "platform": null,
+            "KUID": "cc98fcae1672440ebbbd9a459032f2ab"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "LOADING_INDICATOR_f0b5221918784124b6b4eb3c691a5a43",
+            "selectedOption": "show",
+            "type": "LOADING_INDICATOR",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "INVOKE_OBJECT_SERVICE_b394503aa18c43b6a7eaa3d1184db26d",
+            "type": "INVOKE_OBJECT_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": null,
+            "isoffline": null,
+            "isobject": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "servicename": "ObjSvcDatatableInHomeRepairs",
+                "type": "objectsvcs",
+                "objectname": "customer_employee",
+                "serviceid": "d64c84b6-80db-4e2b-8600-cea668176a69",
+                "methodname": "delete"
+            },
+            "enableMappingEditor": true
+        }, {
+            "id": "LOADING_INDICATOR_g5f71e9a0d8948608e78c39e7dd7e82d",
+            "selectedOption": "dismiss",
+            "parentId": "INVOKE_OBJECT_SERVICE_b394503aa18c43b6a7eaa3d1184db26d",
+            "type": "LOADING_INDICATOR",
+            "callbackType": "Callback",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "_IF_CONDITION_e32bd18bea104e6898db1a7ff0d435bb",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValue": "customer_employee.opstatus",
+                "rightValue": "0",
+                "leftValueType": "value",
+                "rightValueType": "value",
+                "operator": "==="
+            }],
+            "parentId": "INVOKE_OBJECT_SERVICE_b394503aa18c43b6a7eaa3d1184db26d",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "_ELSE_CONDITION_h7df43a974694c66849d59dfb704f4f4",
+            "type": "ELSE_CONDITION",
+            "conditions": [],
+            "parentId": "INVOKE_OBJECT_SERVICE_b394503aa18c43b6a7eaa3d1184db26d",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "SHOW_ALERT_je433feff87c437f9750b14d09ab0d74",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertTitle": null,
+            "yesLabel": null,
+            "noLabel": null,
+            "alertIcon": null,
+            "alertMessage": "Record deletion failed! Please try again later.",
+            "messageType": "constant",
+            "alertHandler": null,
+            "parentId": "_ELSE_CONDITION_h7df43a974694c66849d59dfb704f4f4",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }]
+    }
+}

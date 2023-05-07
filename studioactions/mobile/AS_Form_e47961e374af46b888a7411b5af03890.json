@@ -1,0 +1,404 @@
+{
+    "AS_Form_e47961e374af46b888a7411b5af03890": {
+        "id": "AS_Form_e47961e374af46b888a7411b5af03890",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOrderDetails",
+            "type": "forms",
+            "platform": null,
+            "KUID": "cf7420ccad494826b700c69821c64402"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "LOADING_INDICATOR_ac28656557594711a4942563b498b319",
+            "selectedOption": "show",
+            "type": "LOADING_INDICATOR",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "INVOKE_OBJECT_SERVICE_e6009097143140a6b37b2f26a25a6b22",
+            "type": "INVOKE_OBJECT_SERVICE",
+            "inputparams": {
+                "$filter": "\"user_email_fkey eq '\" + userEmail + \"'\"",
+                "$orderby": "\"appointment_dt_time\""
+            },
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": null,
+            "isoffline": null,
+            "isobject": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "servicename": "ObjSvcDatatableInHomeRepairs",
+                "type": "objectsvcs",
+                "objectname": "customer_employee",
+                "serviceid": "d64c84b6-80db-4e2b-8600-cea668176a69",
+                "methodname": "get"
+            },
+            "enableMappingEditor": true
+        }, {
+            "id": "LOADING_INDICATOR_c090bc044bcc47e3999744d917203ad3",
+            "selectedOption": "dismiss",
+            "parentId": "INVOKE_OBJECT_SERVICE_e6009097143140a6b37b2f26a25a6b22",
+            "type": "LOADING_INDICATOR",
+            "callbackType": "Callback",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "_IF_CONDITION_j10f70e57bda42f8aed28fcc20b272ec",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValue": "customer_employee.opstatus",
+                "rightValue": "0",
+                "leftValueType": "value",
+                "rightValueType": "value",
+                "operator": "==="
+            }],
+            "parentId": "INVOKE_OBJECT_SERVICE_e6009097143140a6b37b2f26a25a6b22",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "_ELSE_CONDITION_e13b77ca8737444e8905a0faa69fb98c",
+            "type": "ELSE_CONDITION",
+            "conditions": [],
+            "parentId": "INVOKE_OBJECT_SERVICE_e6009097143140a6b37b2f26a25a6b22",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "SHOW_ALERT_e0d945813d014768af325d33f339f978",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertTitle": null,
+            "yesLabel": null,
+            "noLabel": null,
+            "alertIcon": null,
+            "alertMessage": "Data fetch failed! Please try again later.",
+            "messageType": "constant",
+            "alertHandler": null,
+            "parentId": "_ELSE_CONDITION_e13b77ca8737444e8905a0faa69fb98c",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }, {
+            "id": "ADD_MAPPING_f2206ceb48524ea0ba9c0ee078844470",
+            "type": "ADD_MAPPING",
+            "mappings": {
+                "ME_Mapping_f96c3591689442b89ccb6e600efeeb47": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_f96c3591689442b89ccb6e600efeeb47",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "records",
+                        "dataType": "collection",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "ObjSvcDatatableInHomeRepairs",
+                            "type": "objectsvcs",
+                            "objectname": "customer_employee",
+                            "serviceid": "d64c84b6-80db-4e2b-8600-cea668176a69",
+                            "methodname": "get"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "rowData",
+                        "widgetId": "segcustomeremployee",
+                        "widgetPath": "this.view.segcustomeremployee",
+                        "widgetType": "Segment",
+                        "dataType": "collection",
+                        "itemId": "frmOrderDetails",
+                        "collectionId": "masterdata",
+                        "widgetKUID": "e1cf5695b049471ba66dd0c26e994101",
+                        "itemKUID": "cf7420ccad494826b700c69821c64402",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_a795e8c98bb34c08bbb7c539b094e4b1": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_a795e8c98bb34c08bbb7c539b094e4b1",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "order_id",
+                        "dataType": "number",
+                        "collectionId": "records",
+                        "propertyPath": "[\"records\"][0][\"order_id\"]",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "ObjSvcDatatableInHomeRepairs",
+                            "type": "objectsvcs",
+                            "objectname": "customer_employee",
+                            "serviceid": "d64c84b6-80db-4e2b-8600-cea668176a69",
+                            "methodname": "get"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblorderid",
+                        "widgetPath": "this.view.lblorderid",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "templateType": "rowTemplate",
+                        "itemId": "frmOrderDetails",
+                        "parentMappingId": "ME_Mapping_f96c3591689442b89ccb6e600efeeb47",
+                        "segmentId": "segcustomeremployee",
+                        "segmentKUID": "e1cf5695b049471ba66dd0c26e994101",
+                        "widgetKUID": "g343d216f2b24c79ad37a57f51388e53",
+                        "itemKUID": "cf7420ccad494826b700c69821c64402",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_aa2de685b8924fc5a89a0bc578d6ab15": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_aa2de685b8924fc5a89a0bc578d6ab15",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "user_email_fkey",
+                        "dataType": "string",
+                        "collectionId": "records",
+                        "propertyPath": "[\"records\"][0][\"user_email_fkey\"]",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "ObjSvcDatatableInHomeRepairs",
+                            "type": "objectsvcs",
+                            "objectname": "customer_employee",
+                            "serviceid": "d64c84b6-80db-4e2b-8600-cea668176a69",
+                            "methodname": "get"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lbluseremailfkey",
+                        "widgetPath": "this.view.lbluseremailfkey",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "templateType": "rowTemplate",
+                        "itemId": "frmOrderDetails",
+                        "parentMappingId": "ME_Mapping_f96c3591689442b89ccb6e600efeeb47",
+                        "segmentId": "segcustomeremployee",
+                        "segmentKUID": "e1cf5695b049471ba66dd0c26e994101",
+                        "widgetKUID": "c0fe589183c54593b4959f600f800cb8",
+                        "itemKUID": "cf7420ccad494826b700c69821c64402",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_d1959c6f883a4ca19ddee6eb6e99033d": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_d1959c6f883a4ca19ddee6eb6e99033d",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "service_emp_id_fkey",
+                        "dataType": "number",
+                        "collectionId": "records",
+                        "propertyPath": "[\"records\"][0][\"service_emp_id_fkey\"]",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "ObjSvcDatatableInHomeRepairs",
+                            "type": "objectsvcs",
+                            "objectname": "customer_employee",
+                            "serviceid": "d64c84b6-80db-4e2b-8600-cea668176a69",
+                            "methodname": "get"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblserviceempidfkey",
+                        "widgetPath": "this.view.lblserviceempidfkey",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "templateType": "rowTemplate",
+                        "itemId": "frmOrderDetails",
+                        "parentMappingId": "ME_Mapping_f96c3591689442b89ccb6e600efeeb47",
+                        "segmentId": "segcustomeremployee",
+                        "segmentKUID": "e1cf5695b049471ba66dd0c26e994101",
+                        "widgetKUID": "a637fc53e7a149dab7d078957aa0d106",
+                        "itemKUID": "cf7420ccad494826b700c69821c64402",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_a6ac872196834cbb909be935c3e19217": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_a6ac872196834cbb909be935c3e19217",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "Issue_Desctription",
+                        "dataType": "string",
+                        "collectionId": "records",
+                        "propertyPath": "[\"records\"][0][\"Issue_Desctription\"]",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "ObjSvcDatatableInHomeRepairs",
+                            "type": "objectsvcs",
+                            "objectname": "customer_employee",
+                            "serviceid": "d64c84b6-80db-4e2b-8600-cea668176a69",
+                            "methodname": "get"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblIssueDesctription",
+                        "widgetPath": "this.view.lblIssueDesctription",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "templateType": "rowTemplate",
+                        "itemId": "frmOrderDetails",
+                        "parentMappingId": "ME_Mapping_f96c3591689442b89ccb6e600efeeb47",
+                        "segmentId": "segcustomeremployee",
+                        "segmentKUID": "e1cf5695b049471ba66dd0c26e994101",
+                        "widgetKUID": "ebbdb2796e8d49eba3edf0855adb6f28",
+                        "itemKUID": "cf7420ccad494826b700c69821c64402",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_ac75dcacee2e4f30b9b8f2d2d3672977": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_ac75dcacee2e4f30b9b8f2d2d3672977",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "appointment_dt_time",
+                        "dataType": "date",
+                        "collectionId": "records",
+                        "propertyPath": "[\"records\"][0][\"appointment_dt_time\"]",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "ObjSvcDatatableInHomeRepairs",
+                            "type": "objectsvcs",
+                            "objectname": "customer_employee",
+                            "serviceid": "d64c84b6-80db-4e2b-8600-cea668176a69",
+                            "methodname": "get"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblappointmentdttime",
+                        "widgetPath": "this.view.lblappointmentdttime",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "templateType": "rowTemplate",
+                        "itemId": "frmOrderDetails",
+                        "parentMappingId": "ME_Mapping_f96c3591689442b89ccb6e600efeeb47",
+                        "segmentId": "segcustomeremployee",
+                        "segmentKUID": "e1cf5695b049471ba66dd0c26e994101",
+                        "widgetKUID": "e979561942a5405ba4bf776d56961611",
+                        "itemKUID": "cf7420ccad494826b700c69821c64402",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_e3bfaaf74ccf4c1dab19c74defed64fb": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_e3bfaaf74ccf4c1dab19c74defed64fb",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "status",
+                        "dataType": "enum",
+                        "collectionId": "records",
+                        "propertyPath": "[\"records\"][0][\"status\"]",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "ObjSvcDatatableInHomeRepairs",
+                            "type": "objectsvcs",
+                            "objectname": "customer_employee",
+                            "serviceid": "d64c84b6-80db-4e2b-8600-cea668176a69",
+                            "methodname": "get"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblstatus",
+                        "widgetPath": "this.view.lblstatus",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "templateType": "rowTemplate",
+                        "itemId": "frmOrderDetails",
+                        "parentMappingId": "ME_Mapping_f96c3591689442b89ccb6e600efeeb47",
+                        "segmentId": "segcustomeremployee",
+                        "segmentKUID": "e1cf5695b049471ba66dd0c26e994101",
+                        "widgetKUID": "cd54b60207dd4685bdb70ee7b351d8d6",
+                        "itemKUID": "cf7420ccad494826b700c69821c64402",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_cc4f1e1d05b241d682a1799174ea4f73": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_cc4f1e1d05b241d682a1799174ea4f73",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "remarks",
+                        "dataType": "string",
+                        "collectionId": "records",
+                        "propertyPath": "[\"records\"][0][\"remarks\"]",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "ObjSvcDatatableInHomeRepairs",
+                            "type": "objectsvcs",
+                            "objectname": "customer_employee",
+                            "serviceid": "d64c84b6-80db-4e2b-8600-cea668176a69",
+                            "methodname": "get"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblremarks",
+                        "widgetPath": "this.view.lblremarks",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "templateType": "rowTemplate",
+                        "itemId": "frmOrderDetails",
+                        "parentMappingId": "ME_Mapping_f96c3591689442b89ccb6e600efeeb47",
+                        "segmentId": "segcustomeremployee",
+                        "segmentKUID": "e1cf5695b049471ba66dd0c26e994101",
+                        "widgetKUID": "c3f943a70fd14430a6ebdf9c22ddd933",
+                        "itemKUID": "cf7420ccad494826b700c69821c64402",
+                        "forkedPlatform": "all"
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_f96c3591689442b89ccb6e600efeeb47", "ME_Mapping_a795e8c98bb34c08bbb7c539b094e4b1", "ME_Mapping_aa2de685b8924fc5a89a0bc578d6ab15", "ME_Mapping_d1959c6f883a4ca19ddee6eb6e99033d", "ME_Mapping_a6ac872196834cbb909be935c3e19217", "ME_Mapping_ac75dcacee2e4f30b9b8f2d2d3672977", "ME_Mapping_e3bfaaf74ccf4c1dab19c74defed64fb", "ME_Mapping_cc4f1e1d05b241d682a1799174ea4f73"],
+            "parentId": "_IF_CONDITION_j10f70e57bda42f8aed28fcc20b272ec",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

@@ -1,0 +1,537 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "lblchargeprhr": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Charge Pr Hr"
+            },
+            "lblcontactno": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Contact No"
+            },
+            "lblemail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Email"
+            },
+            "lblempid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Emp Id"
+            },
+            "lblfirstname": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "First Name"
+            },
+            "lblpwd": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Pwd"
+            },
+            "lblsecondname": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Second Name"
+            },
+            "lblserviceidfkey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Id Fkey"
+            }
+        },
+        {
+            "lblchargeprhr": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Charge Pr Hr"
+            },
+            "lblcontactno": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Contact No"
+            },
+            "lblemail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Email"
+            },
+            "lblempid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Emp Id"
+            },
+            "lblfirstname": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "First Name"
+            },
+            "lblpwd": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Pwd"
+            },
+            "lblsecondname": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Second Name"
+            },
+            "lblserviceidfkey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Id Fkey"
+            }
+        },
+        {
+            "lblchargeprhr": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Charge Pr Hr"
+            },
+            "lblcontactno": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Contact No"
+            },
+            "lblemail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Email"
+            },
+            "lblempid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Emp Id"
+            },
+            "lblfirstname": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "First Name"
+            },
+            "lblpwd": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Pwd"
+            },
+            "lblsecondname": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Second Name"
+            },
+            "lblserviceidfkey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Id Fkey"
+            }
+        },
+        {
+            "lblchargeprhr": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Charge Pr Hr"
+            },
+            "lblcontactno": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Contact No"
+            },
+            "lblemail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Email"
+            },
+            "lblempid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Emp Id"
+            },
+            "lblfirstname": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "First Name"
+            },
+            "lblpwd": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Pwd"
+            },
+            "lblsecondname": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Second Name"
+            },
+            "lblserviceidfkey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Id Fkey"
+            }
+        },
+        {
+            "lblchargeprhr": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Charge Pr Hr"
+            },
+            "lblcontactno": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Contact No"
+            },
+            "lblemail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Email"
+            },
+            "lblempid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Emp Id"
+            },
+            "lblfirstname": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "First Name"
+            },
+            "lblpwd": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Pwd"
+            },
+            "lblsecondname": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Second Name"
+            },
+            "lblserviceidfkey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Id Fkey"
+            }
+        },
+        {
+            "lblchargeprhr": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Charge Pr Hr"
+            },
+            "lblcontactno": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Contact No"
+            },
+            "lblemail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Email"
+            },
+            "lblempid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Emp Id"
+            },
+            "lblfirstname": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "First Name"
+            },
+            "lblpwd": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Pwd"
+            },
+            "lblsecondname": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Second Name"
+            },
+            "lblserviceidfkey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Id Fkey"
+            }
+        },
+        {
+            "lblchargeprhr": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Charge Pr Hr"
+            },
+            "lblcontactno": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Contact No"
+            },
+            "lblemail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Email"
+            },
+            "lblempid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Emp Id"
+            },
+            "lblfirstname": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "First Name"
+            },
+            "lblpwd": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Pwd"
+            },
+            "lblsecondname": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Second Name"
+            },
+            "lblserviceidfkey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Id Fkey"
+            }
+        },
+        {
+            "lblchargeprhr": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Charge Pr Hr"
+            },
+            "lblcontactno": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Contact No"
+            },
+            "lblemail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Email"
+            },
+            "lblempid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Emp Id"
+            },
+            "lblfirstname": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "First Name"
+            },
+            "lblpwd": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Pwd"
+            },
+            "lblsecondname": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Second Name"
+            },
+            "lblserviceidfkey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Id Fkey"
+            }
+        },
+        {
+            "lblchargeprhr": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Charge Pr Hr"
+            },
+            "lblcontactno": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Contact No"
+            },
+            "lblemail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Email"
+            },
+            "lblempid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Emp Id"
+            },
+            "lblfirstname": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "First Name"
+            },
+            "lblpwd": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Pwd"
+            },
+            "lblsecondname": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Second Name"
+            },
+            "lblserviceidfkey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Id Fkey"
+            }
+        },
+        {
+            "lblchargeprhr": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Charge Pr Hr"
+            },
+            "lblcontactno": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Contact No"
+            },
+            "lblemail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Email"
+            },
+            "lblempid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Emp Id"
+            },
+            "lblfirstname": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "First Name"
+            },
+            "lblpwd": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Pwd"
+            },
+            "lblsecondname": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Second Name"
+            },
+            "lblserviceidfkey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Id Fkey"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "760dp"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "actionsInfo": {
+        "dataPropertyName": "records",
+        "widgetPropertyName": "rowData"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "09",
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": "c920b0f481c2430a9e7f752189314d92",
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segserviceemployee",
+    "ide_onRowClick": "AS_Segment_a6712816c833470ca18c2b4be22e605f",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "g2d2e4c725584ba7a40e8a38a1b4a649",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "frmempservs",
+    "pf": "frmempservs",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "c920b0f481c2430a9e7f752189314d92",
+    "rowcounter": 9,
+    "rowfocusskin": "s052a4e1579a4a30b764cd85902faff2",
+    "rowskin": "s386127b4f94404bb8965099cbea96f6",
+    "rowtemplate": "FBox0e8d4a71905134b",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s4c0c6a2a403468798fe50f5f65f4d15",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {
+        "dynamicPropertiesConfig": {
+            "dataCollectionId": "records",
+            "methodName": "get",
+            "operationName": "service_employee",
+            "rowTemplateKUID": "c920b0f481c2430a9e7f752189314d92",
+            "segmentKUID": "g2d2e4c725584ba7a40e8a38a1b4a649",
+            "serviceName": "ObjSvcDatatableInHomeRepairs",
+            "serviceType": "objectsvcs",
+            "viewType": "List form ui",
+            "widgetsConfig": {
+                "charge_pr_hr": {
+                    "dataType": "string",
+                    "kuid": "e0d1169af57d4bf1aafbc80424c2202e",
+                    "properties": {
+                        "generate": true,
+                        "index": 4
+                    },
+                    "wType": "Label"
+                },
+                "contact_no": {
+                    "dataType": "string",
+                    "kuid": "ed9d02eef4c34403b350ed326765e562",
+                    "properties": {
+                        "generate": true,
+                        "index": 3
+                    },
+                    "wType": "Label"
+                },
+                "email": {
+                    "dataType": "string",
+                    "kuid": "cc835314e01b4cadb0b266a2b4e13f4e",
+                    "properties": {
+                        "generate": true,
+                        "index": 5
+                    },
+                    "wType": "Label"
+                },
+                "emp_id": {
+                    "dataType": "number",
+                    "kuid": "gd7887bbeeab46f5a8a8125b4d6efbb7",
+                    "properties": {
+                        "generate": true,
+                        "index": 0
+                    },
+                    "wType": "Label"
+                },
+                "first_name": {
+                    "dataType": "string",
+                    "kuid": "a1869304b6db4047a794399b429cf10f",
+                    "properties": {
+                        "generate": true,
+                        "index": 1
+                    },
+                    "wType": "Label"
+                },
+                "pwd": {
+                    "dataType": "string",
+                    "kuid": "j2eee79088a145b7ac7ed75bd35377a7",
+                    "properties": {
+                        "generate": true,
+                        "index": 6
+                    },
+                    "wType": "Label"
+                },
+                "second_name": {
+                    "dataType": "string",
+                    "kuid": "a2a43a2fe52048f894ee7544b2c74b7b",
+                    "properties": {
+                        "generate": true,
+                        "index": 2
+                    },
+                    "wType": "Label"
+                },
+                "service_id_fkey": {
+                    "dataType": "number",
+                    "kuid": "f738f9fcbac644b8be34b5f994804a01",
+                    "properties": {
+                        "generate": true,
+                        "index": 7
+                    },
+                    "wType": "Label"
+                }
+            }
+        }
+    },
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "lblchargeprhr": "lblchargeprhr",
+        "lblcontactno": "lblcontactno",
+        "lblemail": "lblemail",
+        "lblempid": "lblempid",
+        "lblfirstname": "lblfirstname",
+        "lblpwd": "lblpwd",
+        "lblsecondname": "lblsecondname",
+        "lblserviceidfkey": "lblserviceidfkey"
+    },
+    "zindex": 1
+}

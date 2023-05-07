@@ -1,0 +1,371 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "82%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sc21c976ac3e4f88ba3aff899f6bc596",
+    "_top_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "actionsInfo": {
+        "skipMapping": true
+    },
+    "allboxes": [],
+    "allowhorizontalbounce": false,
+    "allowverticalbounce": true,
+    "bounces": true,
+    "canUpdateUI": true,
+    "children": [
+        "flexorderid",
+        "flexuseremailfkey",
+        "flexserviceempidfkey",
+        "flexIssueDesctription",
+        "flexappointmentdttime",
+        "flexstatus",
+        "flexremarks"
+    ],
+    "clipbounds": false,
+    "containerweight": 100,
+    "decelerat": false,
+    "dragg": false,
+    "enablescrolling": true,
+    "horizontalscrollindicator": true,
+    "id": "flexFieldsContainer",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "bef40269f1d94b77bcc2f721c1479803",
+    "layouttype": 4,
+    "name": "kony.ui.FlexScrollContainer",
+    "pagingenabled": false,
+    "parent": "frmfinalDetails",
+    "pf": "frmfinalDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "scrolldirection": 2,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "track": false,
+    "verticalscrollindicator": true,
+    "vizProps": {
+        "dynamicPropertiesConfig": {
+            "flexKUID": "bef40269f1d94b77bcc2f721c1479803",
+            "methodName": "create",
+            "operationName": "customer_employee",
+            "serviceName": "ObjSvcDatatableInHomeRepairs",
+            "serviceType": "objectsvcs",
+            "viewType": "Entry form ui",
+            "widgetsConfig": {
+                "Issue_Desctription": {
+                    "dataType": "string",
+                    "layoutConfig": {
+                        "isRequired": {
+                            "kuid": "be353fd4350340b4a5582cca76b9185b",
+                            "wType": "Label"
+                        },
+                        "kuid": "b8159abaf66e47a593c272570822bf9f",
+                        "name": {
+                            "kuid": "aeb38770627545c6b6cdcbd237e5d0be",
+                            "wType": "Label"
+                        },
+                        "nameFlex": {
+                            "kuid": "b9ffd8503c7c4a0a99939bfad5313bf1",
+                            "wType": "FlexContainer"
+                        },
+                        "value": {
+                            "kuid": "f7e09a0e87534db684188f2caee431b3",
+                            "wType": "TextField"
+                        },
+                        "wType": "FlexContainer"
+                    },
+                    "properties": {
+                        "displayName": {
+                            "key": "text",
+                            "value": "Issue_Desctription"
+                        },
+                        "generate": true,
+                        "index": 3,
+                        "isReadOnly": {
+                            "key": "isReadOnly",
+                            "value": false
+                        },
+                        "isRequired": false,
+                        "placeholder": {
+                            "key": "placeholder",
+                            "value": ""
+                        }
+                    }
+                },
+                "appointment_dt_time": {
+                    "dataType": "date",
+                    "layoutConfig": {
+                        "isRequired": {
+                            "kuid": "g64dba4c9ac74e0b85f814bb2e89139d",
+                            "wType": "Label"
+                        },
+                        "kuid": "e46bc8d0f88d41e1ae146f78ea5f56c6",
+                        "name": {
+                            "kuid": "j038ecbe5683401b93d1f284c7b6c00b",
+                            "wType": "Label"
+                        },
+                        "nameFlex": {
+                            "kuid": "f45129954e704fc09696effa934014bc",
+                            "wType": "FlexContainer"
+                        },
+                        "value": {
+                            "kuid": "b6a6d9dac33a4a3aa055b7552327ded7",
+                            "wType": "Calendar"
+                        },
+                        "wType": "FlexContainer"
+                    },
+                    "properties": {
+                        "displayName": {
+                            "key": "text",
+                            "value": "appointment_dt_time"
+                        },
+                        "generate": true,
+                        "index": 4,
+                        "isReadOnly": {
+                            "key": "isReadOnly",
+                            "value": false
+                        },
+                        "isRequired": false,
+                        "placeholder": {
+                            "key": "placeholder",
+                            "value": ""
+                        }
+                    }
+                },
+                "order_id": {
+                    "dataType": "number",
+                    "layoutConfig": {
+                        "isRequired": {
+                            "kuid": "bda168cd227e46e8b9ab9465c2ab3daf",
+                            "wType": "Label"
+                        },
+                        "kuid": "a2573682d672474a9fad5d915535ed17",
+                        "name": {
+                            "kuid": "bc410694dfc5448b8b9174a8deb972b1",
+                            "wType": "Label"
+                        },
+                        "nameFlex": {
+                            "kuid": "f0fdffc1a7d14428b9f3c9f04c520df0",
+                            "wType": "FlexContainer"
+                        },
+                        "value": {
+                            "kuid": "ad7be80c4bcd4e9292459168a2e9be55",
+                            "wType": "TextField"
+                        },
+                        "wType": "FlexContainer"
+                    },
+                    "properties": {
+                        "displayName": {
+                            "key": "text",
+                            "value": "order_id"
+                        },
+                        "generate": true,
+                        "index": 0,
+                        "isReadOnly": {
+                            "key": "isReadOnly",
+                            "value": false
+                        },
+                        "isRequired": false,
+                        "placeholder": {
+                            "key": "placeholder",
+                            "value": ""
+                        }
+                    }
+                },
+                "remarks": {
+                    "dataType": "string",
+                    "layoutConfig": {
+                        "isRequired": {
+                            "kuid": "j0c6de2f85104d839b083fd73fbcc694",
+                            "wType": "Label"
+                        },
+                        "kuid": "j180dd5d39f04300bd5258d62165ce56",
+                        "name": {
+                            "kuid": "g7d809f730b54ab89362f3e5a9a19362",
+                            "wType": "Label"
+                        },
+                        "nameFlex": {
+                            "kuid": "b2f613268f7a4a5881c1201f957d2a98",
+                            "wType": "FlexContainer"
+                        },
+                        "value": {
+                            "kuid": "ef2f26e1b00f4d39a57043970eee280b",
+                            "wType": "TextField"
+                        },
+                        "wType": "FlexContainer"
+                    },
+                    "properties": {
+                        "displayName": {
+                            "key": "text",
+                            "value": "remarks"
+                        },
+                        "generate": true,
+                        "index": 6,
+                        "isReadOnly": {
+                            "key": "isReadOnly",
+                            "value": false
+                        },
+                        "isRequired": false,
+                        "placeholder": {
+                            "key": "placeholder",
+                            "value": ""
+                        }
+                    }
+                },
+                "service_emp_id_fkey": {
+                    "dataType": "number",
+                    "layoutConfig": {
+                        "isRequired": {
+                            "kuid": "afe00c94376b4259ace9b5e3f2fa41ed",
+                            "wType": "Label"
+                        },
+                        "kuid": "gfaccfbd30ec40b591bed435552943cc",
+                        "name": {
+                            "kuid": "d0e8835ff61841e6a26c72bca0d65d89",
+                            "wType": "Label"
+                        },
+                        "nameFlex": {
+                            "kuid": "ia102a1516a948fa96f23a75cc1feb8f",
+                            "wType": "FlexContainer"
+                        },
+                        "value": {
+                            "kuid": "f8bcc45408d648df8c2190e82a1ff485",
+                            "wType": "TextField"
+                        },
+                        "wType": "FlexContainer"
+                    },
+                    "properties": {
+                        "displayName": {
+                            "key": "text",
+                            "value": "service_emp_id_fkey"
+                        },
+                        "generate": true,
+                        "index": 2,
+                        "isReadOnly": {
+                            "key": "isReadOnly",
+                            "value": false
+                        },
+                        "isRequired": false,
+                        "placeholder": {
+                            "key": "placeholder",
+                            "value": ""
+                        }
+                    }
+                },
+                "status": {
+                    "dataType": "enum",
+                    "layoutConfig": {
+                        "isRequired": {
+                            "kuid": "cc25c737ff7544849e8c1a669785cdb0",
+                            "wType": "Label"
+                        },
+                        "kuid": "f89fa611f77549cfa7d2350e4f057911",
+                        "name": {
+                            "kuid": "e6af171e782e44f4a964e70f4b92c4ed",
+                            "wType": "Label"
+                        },
+                        "nameFlex": {
+                            "kuid": "j0d1002ac64144189f543405c5dd67ae",
+                            "wType": "FlexContainer"
+                        },
+                        "value": {
+                            "kuid": "c7685e7b4fb5488d9b75a4f22c266a49",
+                            "wType": "ListBox"
+                        },
+                        "wType": "FlexContainer"
+                    },
+                    "meta": "[\"Confirmed\",\"In_Progress\",\"Completed\"]",
+                    "properties": {
+                        "displayName": {
+                            "key": "text",
+                            "value": "status"
+                        },
+                        "generate": true,
+                        "index": 5,
+                        "isReadOnly": {
+                            "key": "isReadOnly",
+                            "value": false
+                        },
+                        "isRequired": false,
+                        "placeholder": {
+                            "key": "placeholder",
+                            "value": ""
+                        }
+                    }
+                },
+                "user_email_fkey": {
+                    "dataType": "string",
+                    "layoutConfig": {
+                        "isRequired": {
+                            "kuid": "ff7a70e0d6494dbe860f4debdc821a4f",
+                            "wType": "Label"
+                        },
+                        "kuid": "j5976fa2b0ed44f7a84b6a57235e5aa3",
+                        "name": {
+                            "kuid": "ge496a69440f491c993212938883d218",
+                            "wType": "Label"
+                        },
+                        "nameFlex": {
+                            "kuid": "g1230f1c7ec941c0a6511cdf838881fc",
+                            "wType": "FlexContainer"
+                        },
+                        "value": {
+                            "kuid": "daee1719733646d383f0e4abf717d21a",
+                            "wType": "TextField"
+                        },
+                        "wType": "FlexContainer"
+                    },
+                    "properties": {
+                        "displayName": {
+                            "key": "text",
+                            "value": "user_email_fkey"
+                        },
+                        "generate": true,
+                        "index": 1,
+                        "isReadOnly": {
+                            "key": "isReadOnly",
+                            "value": false
+                        },
+                        "isRequired": false,
+                        "placeholder": {
+                            "key": "placeholder",
+                            "value": ""
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "wType": "FlexScrollContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

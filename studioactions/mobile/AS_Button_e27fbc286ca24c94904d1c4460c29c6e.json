@@ -1,0 +1,357 @@
+{
+    "AS_Button_e27fbc286ca24c94904d1c4460c29c6e": {
+        "id": "AS_Button_e27fbc286ca24c94904d1c4460c29c6e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmfinalDetails",
+            "type": "forms",
+            "platform": null,
+            "KUID": "h57efdff79d54cfea0ed1f3234b16b16"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "LOADING_INDICATOR_g0329c80da1e48ae80f2fcb3f7fc3b87",
+            "selectedOption": "show",
+            "type": "LOADING_INDICATOR",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "INVOKE_OBJECT_SERVICE_f4ce122f537945f7be22b3e7321ba7ab",
+            "type": "INVOKE_OBJECT_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": null,
+            "isoffline": null,
+            "isobject": true,
+            "mappings": {
+                "ME_Mapping_f7cb1795db724df38df30123a0ff86c2": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_f7cb1795db724df38df30123a0ff86c2",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "tbxorderid",
+                        "widgetPath": "this.view.tbxorderid",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "frmfinalDetails",
+                        "widgetKUID": "ad7be80c4bcd4e9292459168a2e9be55",
+                        "itemKUID": "h57efdff79d54cfea0ed1f3234b16b16",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "order_id",
+                        "dataType": "number",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "ObjSvcDatatableInHomeRepairs",
+                            "type": "objectsvcs",
+                            "objectname": "customer_employee",
+                            "serviceid": "d64c84b6-80db-4e2b-8600-cea668176a69",
+                            "methodname": "create"
+                        }
+                    }
+                },
+                "ME_Mapping_e44d73471b7d4f64acce4293aaca6930": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_e44d73471b7d4f64acce4293aaca6930",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "tbxuseremailfkey",
+                        "widgetPath": "this.view.tbxuseremailfkey",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "frmfinalDetails",
+                        "widgetKUID": "daee1719733646d383f0e4abf717d21a",
+                        "itemKUID": "h57efdff79d54cfea0ed1f3234b16b16",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "user_email_fkey",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "ObjSvcDatatableInHomeRepairs",
+                            "type": "objectsvcs",
+                            "objectname": "customer_employee",
+                            "serviceid": "d64c84b6-80db-4e2b-8600-cea668176a69",
+                            "methodname": "create"
+                        }
+                    }
+                },
+                "ME_Mapping_b808fce2bbca438b9fe063d2ccc2a17f": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_b808fce2bbca438b9fe063d2ccc2a17f",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "tbxserviceempidfkey",
+                        "widgetPath": "this.view.tbxserviceempidfkey",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "frmfinalDetails",
+                        "widgetKUID": "f8bcc45408d648df8c2190e82a1ff485",
+                        "itemKUID": "h57efdff79d54cfea0ed1f3234b16b16",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "service_emp_id_fkey",
+                        "dataType": "number",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "ObjSvcDatatableInHomeRepairs",
+                            "type": "objectsvcs",
+                            "objectname": "customer_employee",
+                            "serviceid": "d64c84b6-80db-4e2b-8600-cea668176a69",
+                            "methodname": "create"
+                        }
+                    }
+                },
+                "ME_Mapping_e8f12ce4d0bd425682ac22b12f2e3582": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_e8f12ce4d0bd425682ac22b12f2e3582",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "tbxIssueDesctription",
+                        "widgetPath": "this.view.tbxIssueDesctription",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "frmfinalDetails",
+                        "widgetKUID": "f7e09a0e87534db684188f2caee431b3",
+                        "itemKUID": "h57efdff79d54cfea0ed1f3234b16b16",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "Issue_Desctription",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "ObjSvcDatatableInHomeRepairs",
+                            "type": "objectsvcs",
+                            "objectname": "customer_employee",
+                            "serviceid": "d64c84b6-80db-4e2b-8600-cea668176a69",
+                            "methodname": "create"
+                        }
+                    }
+                },
+                "ME_Mapping_d9f5e3c4278548d7b805676b3f2ad157": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_d9f5e3c4278548d7b805676b3f2ad157",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "formattedDate",
+                        "widgetId": "calappointmentdttime",
+                        "widgetPath": "this.view.calappointmentdttime",
+                        "widgetType": "Calendar",
+                        "dataType": "string",
+                        "itemId": "frmfinalDetails",
+                        "widgetKUID": "b6a6d9dac33a4a3aa055b7552327ded7",
+                        "itemKUID": "h57efdff79d54cfea0ed1f3234b16b16",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "appointment_dt_time",
+                        "dataType": "date",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "ObjSvcDatatableInHomeRepairs",
+                            "type": "objectsvcs",
+                            "objectname": "customer_employee",
+                            "serviceid": "d64c84b6-80db-4e2b-8600-cea668176a69",
+                            "methodname": "create"
+                        }
+                    }
+                },
+                "ME_Mapping_d3d6dabc167c482face42791fd21d593": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_d3d6dabc167c482face42791fd21d593",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "selectedKey",
+                        "widgetId": "lbxstatus",
+                        "widgetPath": "this.view.lbxstatus",
+                        "widgetType": "ListBox",
+                        "dataType": "string",
+                        "itemId": "frmfinalDetails",
+                        "widgetKUID": "c7685e7b4fb5488d9b75a4f22c266a49",
+                        "itemKUID": "h57efdff79d54cfea0ed1f3234b16b16",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "status",
+                        "dataType": "enum",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "ObjSvcDatatableInHomeRepairs",
+                            "type": "objectsvcs",
+                            "objectname": "customer_employee",
+                            "serviceid": "d64c84b6-80db-4e2b-8600-cea668176a69",
+                            "methodname": "create"
+                        }
+                    }
+                },
+                "ME_Mapping_h65b559ea05b4e4da56aeb0c55f0d846": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_h65b559ea05b4e4da56aeb0c55f0d846",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "tbxremarks",
+                        "widgetPath": "this.view.tbxremarks",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "frmfinalDetails",
+                        "widgetKUID": "ef2f26e1b00f4d39a57043970eee280b",
+                        "itemKUID": "h57efdff79d54cfea0ed1f3234b16b16",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "remarks",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "ObjSvcDatatableInHomeRepairs",
+                            "type": "objectsvcs",
+                            "objectname": "customer_employee",
+                            "serviceid": "d64c84b6-80db-4e2b-8600-cea668176a69",
+                            "methodname": "create"
+                        }
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_f7cb1795db724df38df30123a0ff86c2", "ME_Mapping_e44d73471b7d4f64acce4293aaca6930", "ME_Mapping_b808fce2bbca438b9fe063d2ccc2a17f", "ME_Mapping_e8f12ce4d0bd425682ac22b12f2e3582", "ME_Mapping_d9f5e3c4278548d7b805676b3f2ad157", "ME_Mapping_d3d6dabc167c482face42791fd21d593", "ME_Mapping_h65b559ea05b4e4da56aeb0c55f0d846"],
+            "serviceconfig": {
+                "servicename": "ObjSvcDatatableInHomeRepairs",
+                "type": "objectsvcs",
+                "objectname": "customer_employee",
+                "serviceid": "d64c84b6-80db-4e2b-8600-cea668176a69",
+                "methodname": "create"
+            },
+            "enableMappingEditor": true
+        }, {
+            "id": "LOADING_INDICATOR_eb711706a1344fe2bf136cad285a53c2",
+            "selectedOption": "dismiss",
+            "parentId": "INVOKE_OBJECT_SERVICE_f4ce122f537945f7be22b3e7321ba7ab",
+            "type": "LOADING_INDICATOR",
+            "callbackType": "Callback",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "_IF_CONDITION_dd0ea8feecad421dacc41af1a2a0bc77",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValue": "customer_employee.opstatus",
+                "rightValue": "0",
+                "leftValueType": "value",
+                "rightValueType": "value",
+                "operator": "==="
+            }],
+            "parentId": "INVOKE_OBJECT_SERVICE_f4ce122f537945f7be22b3e7321ba7ab",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "NAVIGATE_TO_FORM__d36481393f594902b78a49fdac5db587",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmOrderDetails",
+            "formKUID": "cf7420ccad494826b700c69821c64402",
+            "projectName": "HomeRepairs",
+            "mappings": {
+                "ME_Mapping_e05e88c54e974854ad276d6ed9ba1bee": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_e05e88c54e974854ad276d6ed9ba1bee",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "propertyKey": "tbxserviceempidfkey_text",
+                        "widgetId": "tbxserviceempidfkey",
+                        "widgetPath": "this.view.tbxserviceempidfkey",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "frmfinalDetails",
+                        "widgetKUID": "f8bcc45408d648df8c2190e82a1ff485",
+                        "itemKUID": "h57efdff79d54cfea0ed1f3234b16b16",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "forkedPlatform": "all"
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_e05e88c54e974854ad276d6ed9ba1bee"],
+            "parentId": "_IF_CONDITION_dd0ea8feecad421dacc41af1a2a0bc77",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "enableNavigationObj": true,
+            "navigationObj": "{\n    \"tbxserviceempidfkey_text\": self.view.tbxserviceempidfkey.text,\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"btnSquared\"\n    }\n}",
+            "isCustomInput": false
+        }, {
+            "id": "_ELSE_CONDITION_ce752abcee964b859e726592f17f7e16",
+            "type": "ELSE_CONDITION",
+            "conditions": [],
+            "parentId": "INVOKE_OBJECT_SERVICE_f4ce122f537945f7be22b3e7321ba7ab",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "SHOW_ALERT_b21da8549fa545af84b19f49bcc3995c",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertTitle": null,
+            "yesLabel": null,
+            "noLabel": null,
+            "alertIcon": null,
+            "alertMessage": "Record creation failed! Please try again later.",
+            "messageType": "constant",
+            "alertHandler": null,
+            "parentId": "_ELSE_CONDITION_ce752abcee964b859e726592f17f7e16",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }]
+    }
+}

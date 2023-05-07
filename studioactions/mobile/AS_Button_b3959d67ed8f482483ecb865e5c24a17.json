@@ -1,0 +1,221 @@
+{
+    "AS_Button_b3959d67ed8f482483ecb865e5c24a17": {
+        "id": "AS_Button_b3959d67ed8f482483ecb865e5c24a17",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmServicesobjCreate",
+            "type": "forms",
+            "KUID": "a9c1f04f4e1e4383ae96d0694fe36e4d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "LOADING_INDICATOR_j9a1d74ee83d401785905e9ee4208639",
+            "selectedOption": "show",
+            "type": "LOADING_INDICATOR",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "INVOKE_OBJECT_SERVICE_g426cebfe949427a9b9f50248b39d503",
+            "type": "INVOKE_OBJECT_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": null,
+            "isoffline": null,
+            "isobject": true,
+            "mappings": {
+                "ME_Mapping_j0951b249b4649358549dac3619ba8f8": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_j0951b249b4649358549dac3619ba8f8",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "tbxserviceid",
+                        "widgetPath": "this.view.tbxserviceid",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "frmServicesobjCreate",
+                        "widgetKUID": "dedb8655413a4abb8caefc57f6caf309",
+                        "itemKUID": "a9c1f04f4e1e4383ae96d0694fe36e4d",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "service_id",
+                        "dataType": "number",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "ObjSvcDatatableInHomeRepairs",
+                            "type": "objectsvcs",
+                            "objectname": "servicesobj",
+                            "serviceid": "d64c84b6-80db-4e2b-8600-cea668176a69",
+                            "methodname": "create"
+                        }
+                    }
+                },
+                "ME_Mapping_cba8257c5c33414a8efcafe6eb79784a": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_cba8257c5c33414a8efcafe6eb79784a",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "tbxservicename",
+                        "widgetPath": "this.view.tbxservicename",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "frmServicesobjCreate",
+                        "widgetKUID": "dc8285351f314a93a2115c4f4dddb0df",
+                        "itemKUID": "a9c1f04f4e1e4383ae96d0694fe36e4d",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "service_name",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "ObjSvcDatatableInHomeRepairs",
+                            "type": "objectsvcs",
+                            "objectname": "servicesobj",
+                            "serviceid": "d64c84b6-80db-4e2b-8600-cea668176a69",
+                            "methodname": "create"
+                        }
+                    }
+                },
+                "ME_Mapping_e269b70f353f4989baa217205596f6a9": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_e269b70f353f4989baa217205596f6a9",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "tbxservicedescription",
+                        "widgetPath": "this.view.tbxservicedescription",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "frmServicesobjCreate",
+                        "widgetKUID": "hc00252ccc0e4db9ad5429b4fca3e533",
+                        "itemKUID": "a9c1f04f4e1e4383ae96d0694fe36e4d",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "service_description",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "ObjSvcDatatableInHomeRepairs",
+                            "type": "objectsvcs",
+                            "objectname": "servicesobj",
+                            "serviceid": "d64c84b6-80db-4e2b-8600-cea668176a69",
+                            "methodname": "create"
+                        }
+                    }
+                },
+                "ME_Mapping_e574eb572a9d4f7ea715f297cd54ea47": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_e574eb572a9d4f7ea715f297cd54ea47",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "tbxlogopath",
+                        "widgetPath": "this.view.tbxlogopath",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "frmServicesobjCreate",
+                        "widgetKUID": "e28d62e96ce64408864601779a58c7ab",
+                        "itemKUID": "a9c1f04f4e1e4383ae96d0694fe36e4d",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "logo_path",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "ObjSvcDatatableInHomeRepairs",
+                            "type": "objectsvcs",
+                            "objectname": "servicesobj",
+                            "serviceid": "d64c84b6-80db-4e2b-8600-cea668176a69",
+                            "methodname": "create"
+                        }
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_j0951b249b4649358549dac3619ba8f8", "ME_Mapping_cba8257c5c33414a8efcafe6eb79784a", "ME_Mapping_e269b70f353f4989baa217205596f6a9", "ME_Mapping_e574eb572a9d4f7ea715f297cd54ea47"],
+            "serviceconfig": {
+                "servicename": "ObjSvcDatatableInHomeRepairs",
+                "type": "objectsvcs",
+                "objectname": "servicesobj",
+                "serviceid": "d64c84b6-80db-4e2b-8600-cea668176a69",
+                "methodname": "create"
+            },
+            "enableMappingEditor": true
+        }, {
+            "id": "LOADING_INDICATOR_e004612059a94a5ca07119c0b94f1c0a",
+            "selectedOption": "dismiss",
+            "parentId": "INVOKE_OBJECT_SERVICE_g426cebfe949427a9b9f50248b39d503",
+            "type": "LOADING_INDICATOR",
+            "callbackType": "Callback",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "_IF_CONDITION_hbda8abba2d84f4f8a6e1cf0128c9fb7",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValue": "servicesobj.opstatus",
+                "rightValue": "0",
+                "leftValueType": "value",
+                "rightValueType": "value",
+                "operator": "==="
+            }],
+            "parentId": "INVOKE_OBJECT_SERVICE_g426cebfe949427a9b9f50248b39d503",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "_ELSE_CONDITION_d446220efd5a46949e66012019e3d09d",
+            "type": "ELSE_CONDITION",
+            "conditions": [],
+            "parentId": "INVOKE_OBJECT_SERVICE_g426cebfe949427a9b9f50248b39d503",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "SHOW_ALERT_dad5571630f74f278498704d23fd3314",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertTitle": null,
+            "yesLabel": null,
+            "noLabel": null,
+            "alertIcon": null,
+            "alertMessage": "Record creation failed! Please try again later.",
+            "messageType": "constant",
+            "alertHandler": null,
+            "parentId": "_ELSE_CONDITION_d446220efd5a46949e66012019e3d09d",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }]
+    }
+}

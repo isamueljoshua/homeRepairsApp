@@ -1,0 +1,201 @@
+{
+    "AS_Button_e0d77d947c15445183ff93f5d48ae329": {
+        "id": "AS_Button_e0d77d947c15445183ff93f5d48ae329",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "beec8bf389434b779591536d371e316c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "LOADING_INDICATOR_gf1cba1bc2614d69a4cdeb7aa4761fdf",
+            "selectedOption": "show",
+            "type": "LOADING_INDICATOR",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "INVOKE_IDENTITY_SERVICE_j88c66a89c0c47dab242b4e3391b219a",
+            "type": "INVOKE_IDENTITY_SERVICE",
+            "mappings": {
+                "ME_Mapping_b0dfabd87ef742288658f611513f9075": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_b0dfabd87ef742288658f611513f9075",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "txtUserName",
+                        "widgetPath": "this.view.txtUserName",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "frmLogin",
+                        "widgetKUID": "jbe65e2217044e59a246630bc5c1d53a",
+                        "itemKUID": "beec8bf389434b779591536d371e316c",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "userid",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "customrs",
+                            "type": "identity",
+                            "operationname": "login",
+                            "serviceid": "6e1a125c-5ed9-4de7-91e9-8551381df891",
+                            "login_type": "basic",
+                            "isDeepLinkRequired": false
+                        }
+                    }
+                },
+                "ME_Mapping_d31fa262be5747f2b55341e9ba7a5664": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_d31fa262be5747f2b55341e9ba7a5664",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "txtPassword",
+                        "widgetPath": "this.view.txtPassword",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "frmLogin",
+                        "widgetKUID": "acbf585daf7f4177a70915945b7a8255",
+                        "itemKUID": "beec8bf389434b779591536d371e316c",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "password",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "customrs",
+                            "type": "identity",
+                            "operationname": "login",
+                            "serviceid": "6e1a125c-5ed9-4de7-91e9-8551381df891",
+                            "login_type": "basic",
+                            "isDeepLinkRequired": false
+                        }
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_b0dfabd87ef742288658f611513f9075", "ME_Mapping_d31fa262be5747f2b55341e9ba7a5664"],
+            "serviceconfig": {
+                "servicename": "customrs",
+                "type": "identity",
+                "operationname": "login",
+                "serviceid": "6e1a125c-5ed9-4de7-91e9-8551381df891",
+                "login_type": "basic",
+                "isDeepLinkRequired": false
+            },
+            "enableMappingEditor": true,
+            "useDeviceBrowser": false,
+            "isDeepLinkRequired": false
+        }, {
+            "id": "LOADING_INDICATOR_c576e7043785417b9f0ec00f0b33226d",
+            "selectedOption": "dismiss",
+            "parentId": "INVOKE_IDENTITY_SERVICE_j88c66a89c0c47dab242b4e3391b219a",
+            "type": "LOADING_INDICATOR",
+            "callbackType": "Success",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "GET_USER_PROFILE_ebce7f753fad407693a85393ac5e16e7",
+            "type": "GET_USER_PROFILE",
+            "parentId": "INVOKE_IDENTITY_SERVICE_j88c66a89c0c47dab242b4e3391b219a",
+            "callbackType": "Success",
+            "serviceName": "customrs"
+        }, {
+            "id": "ADD_MAPPING_eaf642012815484d863c0c2c75d1b39d",
+            "type": "ADD_MAPPING",
+            "mappings": {
+                "ME_Mapping_i7543182d977406282457f16433ad1ec": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_i7543182d977406282457f16433ad1ec",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "txtUserName",
+                        "widgetPath": "this.view.txtUserName",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "frmLogin",
+                        "widgetKUID": "jbe65e2217044e59a246630bc5c1d53a",
+                        "itemKUID": "beec8bf389434b779591536d371e316c",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Variables",
+                        "propertyName": "userEmail",
+                        "dataType": "string",
+                        "forkedPlatform": "all"
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_i7543182d977406282457f16433ad1ec"],
+            "parentId": "GET_USER_PROFILE_ebce7f753fad407693a85393ac5e16e7",
+            "callbackType": "Success",
+            "enableMappingEditor": true
+        }, {
+            "id": "NAVIGATE_TO_FORM__fb271311c7a041bc8968ca2d2b635b07",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "fromservNw",
+            "formKUID": "c8ec6a4ee9f5448aac0838043447b1c6",
+            "projectName": "HomeRepairs",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "GET_USER_PROFILE_ebce7f753fad407693a85393ac5e16e7",
+            "callbackType": "Success",
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }, {
+            "id": "LOADING_INDICATOR_f495af63d0d449ed85fdb008fc412638",
+            "selectedOption": "dismiss",
+            "parentId": "INVOKE_IDENTITY_SERVICE_j88c66a89c0c47dab242b4e3391b219a",
+            "type": "LOADING_INDICATOR",
+            "callbackType": "Failure",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "SHOW_ALERT_e6fcb4ec9800446b84a7aea565f8423d",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertTitle": null,
+            "yesLabel": null,
+            "noLabel": null,
+            "alertIcon": null,
+            "alertMessage": "Login failed. Please try again.",
+            "messageType": "constant",
+            "alertHandler": null,
+            "parentId": "INVOKE_IDENTITY_SERVICE_j88c66a89c0c47dab242b4e3391b219a",
+            "callbackType": "Failure",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }]
+    }
+}

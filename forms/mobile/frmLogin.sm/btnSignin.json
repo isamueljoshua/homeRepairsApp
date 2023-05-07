@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "7.10%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s48369f71de34c5d9f0ebbafd75fa077",
+    "_text_": "Login",
+    "_top_": {
+        "type": "string",
+        "value": "66.63%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "89.33%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.00%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s3b091bc82a6455ab33dbeb965c5b426",
+    "id": "btnSignin",
+    "ide_onClick": "AS_Button_e0d77d947c15445183ff93f5d48ae329",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f94cd591f54b4237a3e227db9ce1a62e",
+    "masterType": 1,
+    "name": "kony.ui.Button",
+    "parent": "flexUserLogin",
+    "pf": "frmLogin",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

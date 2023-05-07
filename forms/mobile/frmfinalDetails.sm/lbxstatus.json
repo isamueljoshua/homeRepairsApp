@@ -1,0 +1,88 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "",
+    "_skin_": "s41298060bfb4bc2afa718383c944bcb",
+    "_top_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "85%"
+    },
+    "actionsInfo": {
+        "dataPropertyName": "status",
+        "widgetPropertyName": "selectedKey"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "disabled": false,
+    "dropdownimage": "listboxarw.png",
+    "focusskin": "seefb596c52e43168f8a059c5b16a49d",
+    "groupcells": false,
+    "id": "lbxstatus",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c7685e7b4fb5488d9b75a4f22c266a49",
+    "masterdata": [
+        [
+            "Confirmed",
+            "Confirmed"
+        ],
+        [
+            "In_Progress",
+            "In_Progress"
+        ],
+        [
+            "Completed",
+            "Completed"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "flexstatus",
+    "pf": "frmfinalDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "Confirmed",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "Confirmed",
+        "Confirmed"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox"
+}

@@ -1,0 +1,16 @@
+{
+  "background_image": "logout.png",
+  "bg_type": "image",
+  "border_color": "313131ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "font_color": "313131ff",
+  "font_name": "Roboto",
+  "font_size": 100,
+  "font_style": "normal",
+  "font_weight": "400",
+  "isDefaultSkin": true,
+  "kuid": "sf3c4637aead4cb0959611978fef6b75",
+  "wType": "Button"
+}

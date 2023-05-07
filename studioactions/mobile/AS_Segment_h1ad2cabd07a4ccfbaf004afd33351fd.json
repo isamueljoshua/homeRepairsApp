@@ -1,0 +1,35 @@
+{
+    "AS_Segment_h1ad2cabd07a4ccfbaf004afd33351fd": {
+        "id": "AS_Segment_h1ad2cabd07a4ccfbaf004afd33351fd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmServices",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ic97d1734bad46c082404c7b201abf3c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__aa8f5adc1e2f4a08bb543baa48071cd2",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "fromservNw",
+            "formKUID": "c8ec6a4ee9f5448aac0838043447b1c6",
+            "projectName": "HomeRepairs",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

@@ -1,0 +1,383 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "Image0ic1c0974bca949": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lbllogopath": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Logo Path"
+            },
+            "lblservicedescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Description"
+            },
+            "lblserviceid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Id"
+            },
+            "lblservicename": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Name"
+            }
+        },
+        {
+            "Image0ic1c0974bca949": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lbllogopath": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Logo Path"
+            },
+            "lblservicedescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Description"
+            },
+            "lblserviceid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Id"
+            },
+            "lblservicename": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Name"
+            }
+        },
+        {
+            "Image0ic1c0974bca949": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lbllogopath": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Logo Path"
+            },
+            "lblservicedescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Description"
+            },
+            "lblserviceid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Id"
+            },
+            "lblservicename": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Name"
+            }
+        },
+        {
+            "Image0ic1c0974bca949": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lbllogopath": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Logo Path"
+            },
+            "lblservicedescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Description"
+            },
+            "lblserviceid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Id"
+            },
+            "lblservicename": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Name"
+            }
+        },
+        {
+            "Image0ic1c0974bca949": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lbllogopath": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Logo Path"
+            },
+            "lblservicedescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Description"
+            },
+            "lblserviceid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Id"
+            },
+            "lblservicename": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Name"
+            }
+        },
+        {
+            "Image0ic1c0974bca949": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lbllogopath": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Logo Path"
+            },
+            "lblservicedescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Description"
+            },
+            "lblserviceid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Id"
+            },
+            "lblservicename": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Name"
+            }
+        },
+        {
+            "Image0ic1c0974bca949": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lbllogopath": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Logo Path"
+            },
+            "lblservicedescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Description"
+            },
+            "lblserviceid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Id"
+            },
+            "lblservicename": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Name"
+            }
+        },
+        {
+            "Image0ic1c0974bca949": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lbllogopath": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Logo Path"
+            },
+            "lblservicedescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Description"
+            },
+            "lblserviceid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Id"
+            },
+            "lblservicename": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Name"
+            }
+        },
+        {
+            "Image0ic1c0974bca949": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lbllogopath": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Logo Path"
+            },
+            "lblservicedescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Description"
+            },
+            "lblserviceid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Id"
+            },
+            "lblservicename": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Name"
+            }
+        },
+        {
+            "Image0ic1c0974bca949": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lbllogopath": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Logo Path"
+            },
+            "lblservicedescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Description"
+            },
+            "lblserviceid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Id"
+            },
+            "lblservicename": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Name"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "760dp"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_top_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "actionsInfo": {
+        "dataPropertyName": "records",
+        "widgetPropertyName": "rowData"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "09",
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": "e2a9ea683afa4a969e935c5451e2e91d",
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segservicesobj",
+    "ide_onRowClick": "AS_Segment_a6e0638810684aff8762cb9a176b185e",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c0dcb6fdb42f48b3b8d55bdb14d26ea9",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "fromservNw",
+    "pf": "fromservNw",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "e2a9ea683afa4a969e935c5451e2e91d",
+    "rowcounter": 9,
+    "rowfocusskin": "s052a4e1579a4a30b764cd85902faff2",
+    "rowskin": "s386127b4f94404bb8965099cbea96f6",
+    "rowtemplate": "FBox0ae37faba25b048",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "s4c0c6a2a403468798fe50f5f65f4d15",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {
+        "dynamicPropertiesConfig": {
+            "dataCollectionId": "records",
+            "methodName": "get",
+            "operationName": "servicesobj",
+            "rowTemplateKUID": "e2a9ea683afa4a969e935c5451e2e91d",
+            "segmentKUID": "c0dcb6fdb42f48b3b8d55bdb14d26ea9",
+            "serviceName": "ObjSvcDatatableInHomeRepairs",
+            "serviceType": "objectsvcs",
+            "viewType": "List form ui",
+            "widgetsConfig": {
+                "logo_path": {
+                    "dataType": "string",
+                    "kuid": "d53bcbc067614debaf51df2a7149ec3f",
+                    "properties": {
+                        "generate": true,
+                        "index": 3
+                    },
+                    "wType": "Label"
+                },
+                "service_description": {
+                    "dataType": "string",
+                    "kuid": "f9a51297698e458fa5779669bdde1b18",
+                    "properties": {
+                        "generate": true,
+                        "index": 2
+                    },
+                    "wType": "Label"
+                },
+                "service_id": {
+                    "dataType": "number",
+                    "kuid": "h731bffc95f1404f8c0b7fe86b10bb7f",
+                    "properties": {
+                        "generate": true,
+                        "index": 0
+                    },
+                    "wType": "Label"
+                },
+                "service_name": {
+                    "dataType": "string",
+                    "kuid": "f7037699c13c4e6b85f500b763f98f07",
+                    "properties": {
+                        "generate": true,
+                        "index": 1
+                    },
+                    "wType": "Label"
+                }
+            }
+        }
+    },
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "Image0ic1c0974bca949": "Image0ic1c0974bca949",
+        "lbllogopath": "lbllogopath",
+        "lblservicedescription": "lblservicedescription",
+        "lblserviceid": "lblserviceid",
+        "lblservicename": "lblservicename"
+    },
+    "zindex": 1
+}

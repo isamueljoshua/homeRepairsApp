@@ -1,0 +1,284 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "82%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sc21c976ac3e4f88ba3aff899f6bc596",
+    "_top_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "actionsInfo": {
+        "skipMapping": true
+    },
+    "allboxes": [],
+    "allowhorizontalbounce": false,
+    "allowverticalbounce": true,
+    "bounces": true,
+    "canUpdateUI": true,
+    "children": [
+        "flexSeparator",
+        "flexempid",
+        "flexSeparator1",
+        "flexfirstname",
+        "flexSeparator2",
+        "flexsecondname",
+        "flexSeparator3",
+        "flexcontactno",
+        "flexSeparator4",
+        "flexchargeprhr",
+        "flexSeparator5",
+        "flexemail",
+        "flexSeparator6",
+        "flexpwd",
+        "flexSeparator7",
+        "flexserviceidfkey"
+    ],
+    "clipbounds": false,
+    "containerweight": 100,
+    "decelerat": false,
+    "dragg": false,
+    "enablescrolling": true,
+    "horizontalscrollindicator": true,
+    "id": "flexFieldsContainer",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a87b96d2c65d49739d857b962ec2e0dc",
+    "layouttype": 4,
+    "name": "kony.ui.FlexScrollContainer",
+    "pagingenabled": false,
+    "parent": "frmEmpDetails",
+    "pf": "frmEmpDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "scrolldirection": 2,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "track": false,
+    "verticalscrollindicator": true,
+    "vizProps": {
+        "dynamicPropertiesConfig": {
+            "dataCollectionId": "records",
+            "flexKUID": "a87b96d2c65d49739d857b962ec2e0dc",
+            "methodName": "get",
+            "operationName": "service_employee",
+            "serviceName": "ObjSvcDatatableInHomeRepairs",
+            "serviceType": "objectsvcs",
+            "viewType": "Detail form ui",
+            "widgetsConfig": {
+                "charge_pr_hr": {
+                    "dataType": "string",
+                    "layoutConfig": {
+                        "kuid": "gea500968a6546ad8a9d1f425f707964",
+                        "name": {
+                            "kuid": "c695dfc2eef948199f14e44ff67d110a",
+                            "wType": "Label"
+                        },
+                        "value": {
+                            "kuid": "b86da0385460477ebdb69073331b09c6",
+                            "wType": "Label"
+                        },
+                        "wType": "FlexContainer"
+                    },
+                    "properties": {
+                        "displayName": {
+                            "key": "text",
+                            "value": "charge_pr_hr"
+                        },
+                        "generate": true,
+                        "index": 4
+                    }
+                },
+                "contact_no": {
+                    "dataType": "string",
+                    "layoutConfig": {
+                        "kuid": "d2a609102b0446b3890775062937159a",
+                        "name": {
+                            "kuid": "h26f39e746fc4f5887a2434bb855efc7",
+                            "wType": "Label"
+                        },
+                        "value": {
+                            "kuid": "b800ce0506c748bb913453be15aaa796",
+                            "wType": "Label"
+                        },
+                        "wType": "FlexContainer"
+                    },
+                    "properties": {
+                        "displayName": {
+                            "key": "text",
+                            "value": "contact_no"
+                        },
+                        "generate": true,
+                        "index": 3
+                    }
+                },
+                "email": {
+                    "dataType": "string",
+                    "layoutConfig": {
+                        "kuid": "cc9e17afb6d148d6be2d19d9ae020cc2",
+                        "name": {
+                            "kuid": "e7571f1e280b49d98e38ea45668c66d8",
+                            "wType": "Label"
+                        },
+                        "value": {
+                            "kuid": "cc95ff9418fd448993594dec097b8dae",
+                            "wType": "Label"
+                        },
+                        "wType": "FlexContainer"
+                    },
+                    "properties": {
+                        "displayName": {
+                            "key": "text",
+                            "value": "email"
+                        },
+                        "generate": true,
+                        "index": 5
+                    }
+                },
+                "emp_id": {
+                    "dataType": "number",
+                    "layoutConfig": {
+                        "kuid": "a100e485d4dc404f82102deec2349a5d",
+                        "name": {
+                            "kuid": "a3aa8af928c341039337d9a7744e1c01",
+                            "wType": "Label"
+                        },
+                        "value": {
+                            "kuid": "a3375be360524472a3ec3af5f8e8143d",
+                            "wType": "Label"
+                        },
+                        "wType": "FlexContainer"
+                    },
+                    "properties": {
+                        "displayName": {
+                            "key": "text",
+                            "value": "emp_id"
+                        },
+                        "generate": true,
+                        "index": 0
+                    }
+                },
+                "first_name": {
+                    "dataType": "string",
+                    "layoutConfig": {
+                        "kuid": "bc114c9b9b5441febc30debd1b2055e0",
+                        "name": {
+                            "kuid": "h2a227c41b8148be83cc905009024e77",
+                            "wType": "Label"
+                        },
+                        "value": {
+                            "kuid": "e371f38739a64451bc20eb7a43520f23",
+                            "wType": "Label"
+                        },
+                        "wType": "FlexContainer"
+                    },
+                    "properties": {
+                        "displayName": {
+                            "key": "text",
+                            "value": "first_name"
+                        },
+                        "generate": true,
+                        "index": 1
+                    }
+                },
+                "pwd": {
+                    "dataType": "string",
+                    "layoutConfig": {
+                        "kuid": "cd95938425ca4f939c2705392ef08a54",
+                        "name": {
+                            "kuid": "fe07d2c948d442bc914b1bca6f8c937a",
+                            "wType": "Label"
+                        },
+                        "value": {
+                            "kuid": "f0b69a4072df4c32823e560c8f31d155",
+                            "wType": "Label"
+                        },
+                        "wType": "FlexContainer"
+                    },
+                    "properties": {
+                        "displayName": {
+                            "key": "text",
+                            "value": "pwd"
+                        },
+                        "generate": true,
+                        "index": 6
+                    }
+                },
+                "second_name": {
+                    "dataType": "string",
+                    "layoutConfig": {
+                        "kuid": "fd4b6cf504c54607992d50f893b3c673",
+                        "name": {
+                            "kuid": "i6039150ad24445aa8341428b13bd7e2",
+                            "wType": "Label"
+                        },
+                        "value": {
+                            "kuid": "bea8587dcbee4584af1acdf45b8e8eb6",
+                            "wType": "Label"
+                        },
+                        "wType": "FlexContainer"
+                    },
+                    "properties": {
+                        "displayName": {
+                            "key": "text",
+                            "value": "second_name"
+                        },
+                        "generate": true,
+                        "index": 2
+                    }
+                },
+                "service_id_fkey": {
+                    "dataType": "number",
+                    "layoutConfig": {
+                        "kuid": "i8a0808c5416443dae73cf5ebdd5d29b",
+                        "name": {
+                            "kuid": "df16eaefbad3479da9ff2e38e1806895",
+                            "wType": "Label"
+                        },
+                        "value": {
+                            "kuid": "bf781116eb8c42f7a9a49a33e3a409b6",
+                            "wType": "Label"
+                        },
+                        "wType": "FlexContainer"
+                    },
+                    "properties": {
+                        "displayName": {
+                            "key": "text",
+                            "value": "service_id_fkey"
+                        },
+                        "generate": true,
+                        "index": 7
+                    }
+                }
+            }
+        }
+    },
+    "wType": "FlexScrollContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

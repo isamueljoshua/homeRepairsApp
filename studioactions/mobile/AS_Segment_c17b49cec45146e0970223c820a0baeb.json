@@ -1,0 +1,125 @@
+{
+    "AS_Segment_c17b49cec45146e0970223c820a0baeb": {
+        "id": "AS_Segment_c17b49cec45146e0970223c820a0baeb",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmOrderDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "cf7420ccad494826b700c69821c64402"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__d4ed94996f934b74ac6e7dd58e6ee101",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmEmpDetails",
+            "formKUID": "cc98fcae1672440ebbbd9a459032f2ab",
+            "projectName": "HomeRepairs",
+            "mappings": {
+                "ME_Mapping_ie909b9e0e7c44a689b236120da955d8": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_ie909b9e0e7c44a689b236120da955d8",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "lblorderid",
+                        "propertyKey": "segcustomeremployee_lblorderid",
+                        "widgetId": "segcustomeremployee",
+                        "widgetPath": "this.view.segcustomeremployee",
+                        "widgetType": "Segment",
+                        "dataType": "string",
+                        "itemId": "frmOrderDetails",
+                        "collectionId": "selectedRowItems",
+                        "widgetKUID": "e1cf5695b049471ba66dd0c26e994101",
+                        "itemKUID": "cf7420ccad494826b700c69821c64402",
+                        "forkedPlatform": "all",
+                        "segmentChildInfo": {
+                            "kuid": "g343d216f2b24c79ad37a57f51388e53",
+                            "widgetType": "Label",
+                            "widgetPath": "this.view.lblorderid"
+                        }
+                    },
+                    "target": {
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_b26f23fad6ca4c78be8ffd261cadef8d": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_b26f23fad6ca4c78be8ffd261cadef8d",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "lblserviceempidfkey",
+                        "propertyKey": "segcustomeremployee_lblserviceempidfkey",
+                        "widgetId": "segcustomeremployee",
+                        "widgetPath": "this.view.segcustomeremployee",
+                        "widgetType": "Segment",
+                        "dataType": "string",
+                        "itemId": "frmOrderDetails",
+                        "collectionId": "selectedRowItems",
+                        "widgetKUID": "e1cf5695b049471ba66dd0c26e994101",
+                        "itemKUID": "cf7420ccad494826b700c69821c64402",
+                        "forkedPlatform": "all",
+                        "segmentChildInfo": {
+                            "kuid": "a637fc53e7a149dab7d078957aa0d106",
+                            "widgetType": "Label",
+                            "widgetPath": "this.view.lblserviceempidfkey"
+                        }
+                    },
+                    "target": {
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_d0a3a6c6230e464f8a978161b14a7c66": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_d0a3a6c6230e464f8a978161b14a7c66",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "lblappointmentdttime",
+                        "propertyKey": "segcustomeremployee_lblappointmentdttime",
+                        "widgetId": "segcustomeremployee",
+                        "widgetPath": "this.view.segcustomeremployee",
+                        "widgetType": "Segment",
+                        "dataType": "string",
+                        "itemId": "frmOrderDetails",
+                        "collectionId": "selectedRowItems",
+                        "widgetKUID": "e1cf5695b049471ba66dd0c26e994101",
+                        "itemKUID": "cf7420ccad494826b700c69821c64402",
+                        "forkedPlatform": "all",
+                        "segmentChildInfo": {
+                            "kuid": "e979561942a5405ba4bf776d56961611",
+                            "widgetType": "Label",
+                            "widgetPath": "this.view.lblappointmentdttime"
+                        }
+                    },
+                    "target": {
+                        "forkedPlatform": "all"
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_ie909b9e0e7c44a689b236120da955d8", "ME_Mapping_b26f23fad6ca4c78be8ffd261cadef8d", "ME_Mapping_d0a3a6c6230e464f8a978161b14a7c66"],
+            "enableMappingEditor": true,
+            "package": "",
+            "enableNavigationObj": true,
+            "navigationObj": "{\n    \"segcustomeremployee_lblorderid\": voltmx.visualizer.getPropertyValue(self.view.segcustomeremployee.selectedRowItems[0][\"lblorderid\"], \"text\"),\n    \"segcustomeremployee_lblserviceempidfkey\": voltmx.visualizer.getPropertyValue(self.view.segcustomeremployee.selectedRowItems[0][\"lblserviceempidfkey\"], \"text\"),\n    \"segcustomeremployee_lblappointmentdttime\": voltmx.visualizer.getPropertyValue(self.view.segcustomeremployee.selectedRowItems[0][\"lblappointmentdttime\"], \"text\"),\n    \"_meta_\": {\n        \"eventName\": \"onRowClick\",\n        \"widgetId\": \"segcustomeremployee\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}
