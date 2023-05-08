@@ -42,7 +42,7 @@
     "id": "btnLogout",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "a565c3e5627a4a41821bcd7094fd4128",
     "name": "kony.ui.Button",
     "parent": "flexHeader",

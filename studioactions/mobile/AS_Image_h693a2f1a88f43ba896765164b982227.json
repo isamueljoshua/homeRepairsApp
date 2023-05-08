@@ -1,0 +1,37 @@
+{
+    "AS_Image_h693a2f1a88f43ba896765164b982227": {
+        "id": "AS_Image_h693a2f1a88f43ba896765164b982227",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmEmpDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "cc98fcae1672440ebbbd9a459032f2ab"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__h134d4ee3e6d4a33af41af170baa4890",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmOrderDetails",
+            "formKUID": "cf7420ccad494826b700c69821c64402",
+            "projectName": "HomeRepairs",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": null,
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

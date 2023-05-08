@@ -40,6 +40,7 @@
     "displaytext": true,
     "focusskin": "sf3c4637aead4cb0959611978fef6b75",
     "id": "btnLogout",
+    "ide_onClick": "AS_Button_jdb9ea59cdb74455b56d028ce47dfea3",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

@@ -38,6 +38,7 @@
     },
     "containerweight": 100,
     "id": "imgHeaderLogo",
+    "ide_onTouchEnd": "AS_Image_e8c08c00d3514603b8ba8d24d6fbbd46",
     "imagescalemode": 1,
     "info": null,
     "invokedProperty": "src",
