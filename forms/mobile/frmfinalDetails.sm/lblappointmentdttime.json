@@ -22,7 +22,7 @@
         0
     ],
     "_skin_": "s32534f234ad4718b1712602e30f33cc",
-    "_text_": "Appointment Dt Time",
+    "_text_": "Appointment Date",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -64,6 +64,7 @@
     "pf": "frmfinalDetails",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
+    "textstyle": {},
     "tooltip": "",
     "wType": "Label"
 }
